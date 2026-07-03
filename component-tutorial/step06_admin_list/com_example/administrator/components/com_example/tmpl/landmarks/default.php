@@ -22,10 +22,10 @@ use Joomla\CMS\Language\Text;
     <tbody><?php foreach ($this->items as $i => $item) :?>
                 <tr>
                     <th scope="row">
-                        <?php echo $item->title; ?>
+                        <?php echo $this->escape($item->title); ?>
                     </th>
                     <td>
-                        <?php echo $item->id; ?>
+                        <?php echo (int) $item->id; ?>
                     </td>
                 </tr>
             <?php endforeach; ?>
