@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form> 
+        <field
+                name="id"
+                type="text"
+                label="JGLOBAL_FIELD_ID_LABEL"
+                class="readonly"
+                default="0"
+                readonly="true"
+                />
+        <field
+                name="title"
+                type="text"
+                label="COM_EXAMPLE_LANDMARK_TITLE_LABEL"
+                description="COM_EXAMPLE_LANDMARK_TITLE_DESC"
+                size="40"
+                required="true"
+                default=""
+                />
+        <field  name="description" 
+                type="editor"
+                label="COM_EXAMPLE_LANDMARK_DESCRIPTION_LABEL" 
+                description="COM_EXAMPLE_LANDMARK_DESCRIPTION_DESC"
+                filter="\Joomla\CMS\Component\ComponentHelper::filterText" 
+                buttons="true" 
+                />
+</form>

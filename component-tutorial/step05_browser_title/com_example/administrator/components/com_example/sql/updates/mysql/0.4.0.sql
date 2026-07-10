@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS `#__example_landmarks` (
     `id`        INT(11)     NOT NULL AUTO_INCREMENT,
-    `title`     VARCHAR(25) NOT NULL,
+    `title`     VARCHAR(40) NOT NULL,
     PRIMARY KEY (`id`)
 );
 
