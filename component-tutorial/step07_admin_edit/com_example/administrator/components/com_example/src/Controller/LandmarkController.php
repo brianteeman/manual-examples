@@ -38,7 +38,7 @@ class LandmarkController extends BaseController {
         // get the submitted data which was sent in the HTTP POST 
         // It's in an array called jform - because of 'control' => 'jform' in the previous loadForm call
         $data    = $this->input->post->get('jform', [], 'array');
-        $id = $data['id'];
+        $id = (int)$data['id'];
         
         // the filtering and validation is based on information in the form
         // so to do that we need to load the form again
@@ -92,7 +92,7 @@ class LandmarkController extends BaseController {
         $model = $this->getModel();
         $table = $model->getTable();
         $data = $this->input->post->get('jform', [], 'array');
-        $id = $data['id'];
+        $id = (int)$data['id'];
  
         $form = $model->getForm();
         

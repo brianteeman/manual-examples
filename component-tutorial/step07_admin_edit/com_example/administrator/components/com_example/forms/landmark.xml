@@ -13,7 +13,6 @@
                 type="text"
                 label="COM_EXAMPLE_LANDMARK_TITLE_LABEL"
                 description="COM_EXAMPLE_LANDMARK_TITLE_DESC"
-                size="40"
                 required="true"
                 default=""
                 />
