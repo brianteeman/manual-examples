@@ -13,7 +13,7 @@ use Joomla\CMS\Router\Route;
     <thead>
         <tr>
             <th scope="col">
-                <?php echo Text::_('JGLOBAL_TITLE'); ?>
+                <?php echo Text::_('COM_EXAMPLE_LANDMARK_TITLE_LABEL'); ?>
             </th>
             <th scope="col">
                 <?php echo Text::_('JGRID_HEADING_ID'); ?>
